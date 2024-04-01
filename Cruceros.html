@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crucero</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="shortcut icon" href="../Tarea3/img/icono.ico" />
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="../Tarea3/img/logo.jpg" alt="Bootstrap" width="300" height="100">
+            </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Vuelos.html"><h5>Vuelos</h5></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+                <a class="nav-link" href="Hoteles.html"><h5>Hoteles</h5></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+                <a class="nav-link" href="Cruceros.html"><h5>Cruceros</h5></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+                <a class="nav-link" href="login.html"><h5>Iniciar Sesión</h5></a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <video autoplay loop muted id="video-background">
+            <source src="../Tarea3/vid/crucero.mp4" type="video/mp4">
+        </video>
+        <div class="container"><br>
+            <div class="row">
+                <br><h1>Su viaje ideal a bordo de un crucero</h1><br><br><br><br>
+                
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="ida">Fecha de Salida:</label>
+                    <input type="date" class="form-control" id="ida">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="destino">Destino del Crucero:</label>
+                    <select class="form-control" id="destino">
+                      <option value="caribe">Caribe</option>
+                      <option value="bahamas">Bahamas</option>
+                      <option value="mediterraneo">Mediterráneo</option>
+                      <option value="alaska">Alaska</option>
+                      <option value="baltico">Báltico</option>
+                      <option value="panama">Panama</option>
+                      <option value="europa">Europa</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="num_adulto">Numero de personas (Adultos):</label>
+                    <input type="number" class="form-control" id="numPersonas" min="1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="num_menor">Numero de personas (Menor de edad):</label>
+                    <input type="number" class="form-control" id="numPersonas" min="0">
+                    </div>
+                </div>
+       
+                </div>
+            </div><br>
+                <center><button type="submit" class="btn btn-primary">Buscar </button></center>
+        </div><br><br>
+
+        <div class="container">
+        <div class="card-group">
+            <div class="card">
+              <img src="../Tarea3/img/crucero.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Viajar en crucero</h5>
+                <p class="card-text">Viajar en crucero se ha convertido en una de las mejores opciones de conocer varios destinos en un solo viaje, sin preocuparse por ir de un lugar a otro con las maletas.</p>
+                <p class="card-text"><small class="text-body-secondary">Ver mas >></small></p>
+              </div>
+            </div>
+            &nbsp;&nbsp;<div class="card">
+              <img src="../Tarea3/img/crusero1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Motivos para visitar CocoCay</h5>
+                <p class="card-text">La espectacular isla de Coco Cay ofrece diversión extrema y descanso total para cada gusto. El parque acuático que incluye el tobogán más alto de Norte América, unido con la
+                     piscina de agua dulce más grande del Caribe para los que se quieren relajar bajo el sol, son imperdibles en un crucero por las Bahamas.</p>
+                <p class="card-text"><small class="text-body-secondary">Ver mas >></small></p>
+              </div>
+            </div>
+            &nbsp;&nbsp;<div class="card">
+              <img src="../Tarea3/img/crusero2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">De crucero por el Caribe</h5>
+                <p class="card-text">Las islas de Caribe son de los destinos a los que hay que viajar, alguna vez. Sin lugar a dudas, es de los lugares más visitados en el 
+                    mundo y que mejor hacerlo en un crucero, una oportunidad para conocer varios lugares en un solo viaje.</p>
+                <p class="card-text"><small class="text-body-secondary">Ver mas >></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+    <br><br><br><footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="mb-4">Contacto</h5>
+                    <p class="mb-2"><i class="fas fa-phone-alt"></i> Teléfono: +1234567890</p>
+                    <p class="mb-0"><i class="far fa-envelope"></i> Email: info@epictravel.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-4">Enlaces</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="RegistrarUsuario.html">Registrarme</a></li>
+                        <li><a href="PQRS.html">PQRS</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-4">Síguenos</h5>
+                    <ul class="list-unstyled social-icons mb-0">
+                        <li><a href="#">Facebook<i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#">Twitter<i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#">Instagram<i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">&copy; 2024 Epic Travel. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

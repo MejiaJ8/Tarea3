@@ -1,0 +1,47 @@
+body {
+	background: #36D1DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+footer{
+    background-color: rgb(26, 25, 25);
+    color: rgb(219, 205, 205);
+}
+
+#texto_footer2{
+text-align: right;
+}
+
+#img_footer{
+    text-align: center;
+}
+#video-background {
+	position: center;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 50vh; 
+      z-index: -1;
+}
+
+h1 {
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+}
+.container-video {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.texto {
+    flex: 2;
+    padding: 30px;
+}
+.video {
+    flex: 5;
+    text-align: right;
+}
+
